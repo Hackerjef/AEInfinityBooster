@@ -19,6 +19,7 @@ public class AEInfinityBooster {
     public static final ItemGroup CREATIVE_MODE_TAB = new ItemGroup(ID) {
         @Override
         public ItemStack makeIcon() {
+            // Infinity Card
             return new ItemStack(ModItems.INFINITY_CARD.get());
         }
     };
