@@ -1,12 +1,12 @@
-package uk.co.hexeption.aeinfinitybooster;
+package dev.nadie.aeinfinitybooster;
 
+import dev.nadie.aeinfinitybooster.setup.Registration;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import uk.co.hexeption.aeinfinitybooster.setup.ModItems;
-import uk.co.hexeption.aeinfinitybooster.setup.Registration;
+import dev.nadie.aeinfinitybooster.setup.ModItems;
 
 @Mod("aeinfinitybooster")
 public class AEInfinityBooster {

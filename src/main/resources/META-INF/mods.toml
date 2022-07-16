@@ -6,7 +6,8 @@ modId = "aeinfinitybooster" #mandatory
 version = "${file.jarVersion}" #mandatory
 displayName = "AEInfinityBooster" #mandatory
 description = '''
-
+Patched by nadie (https://nadie.dev)
+originaly by Hexeption
 '''
 [[dependencies.aeinfinitybooster]] #optional
 modId = "forge" #mandatory

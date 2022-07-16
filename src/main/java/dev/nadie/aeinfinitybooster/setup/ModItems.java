@@ -1,9 +1,9 @@
-package uk.co.hexeption.aeinfinitybooster.setup;
+package dev.nadie.aeinfinitybooster.setup;
 
+import dev.nadie.aeinfinitybooster.item.DimensionCard;
+import dev.nadie.aeinfinitybooster.item.InfinityCard;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
-import uk.co.hexeption.aeinfinitybooster.item.DimensionCard;
-import uk.co.hexeption.aeinfinitybooster.item.InfinityCard;
 
 /**
  * ModItems

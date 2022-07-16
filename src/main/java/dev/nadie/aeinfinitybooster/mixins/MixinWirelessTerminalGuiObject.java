@@ -1,7 +1,6 @@
-package uk.co.hexeption.aeinfinitybooster.mixins;
+package dev.nadie.aeinfinitybooster.mixins;
 
 import appeng.api.implementations.tiles.IWirelessAccessPoint;
-import appeng.api.networking.IGridHost;
 import appeng.helpers.WirelessTerminalGuiObject;
 import appeng.tile.networking.WirelessTileEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -11,7 +10,7 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import uk.co.hexeption.aeinfinitybooster.setup.ModItems;
+import dev.nadie.aeinfinitybooster.setup.ModItems;
 
 /**
  * MixinWirelessTerminalMenuHost
@@ -19,6 +18,7 @@ import uk.co.hexeption.aeinfinitybooster.setup.ModItems;
  * @author Hexeption admin@hexeption.co.uk
  * @since 22/12/2021 - 08:27 am
  */
+
 @Mixin(value = WirelessTerminalGuiObject.class, remap = false)
 public class MixinWirelessTerminalGuiObject {
 

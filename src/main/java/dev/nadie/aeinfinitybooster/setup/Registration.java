@@ -1,11 +1,11 @@
-package uk.co.hexeption.aeinfinitybooster.setup;
+package dev.nadie.aeinfinitybooster.setup;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import uk.co.hexeption.aeinfinitybooster.AEInfinityBooster;
+import dev.nadie.aeinfinitybooster.AEInfinityBooster;
 
 /**
  * Registration

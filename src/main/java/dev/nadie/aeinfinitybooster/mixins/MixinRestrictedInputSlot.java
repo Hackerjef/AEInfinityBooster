@@ -1,4 +1,4 @@
-package uk.co.hexeption.aeinfinitybooster.mixins;
+package dev.nadie.aeinfinitybooster.mixins;
 
 import appeng.container.slot.RestrictedInputSlot;
 import net.minecraft.item.ItemStack;
@@ -6,7 +6,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import uk.co.hexeption.aeinfinitybooster.setup.ModItems;
+import dev.nadie.aeinfinitybooster.setup.ModItems;
 
 /**
  * MixinRestrictedInputSlot
@@ -14,6 +14,7 @@ import uk.co.hexeption.aeinfinitybooster.setup.ModItems;
  * @author Hexeption admin@hexeption.co.uk
  * @since 22/12/2021 - 10:10 am
  */
+
 @Mixin(value = RestrictedInputSlot.class)
 public class MixinRestrictedInputSlot {
 

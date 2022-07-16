@@ -1,4 +1,4 @@
-package uk.co.hexeption.aeinfinitybooster.mixins;
+package dev.nadie.aeinfinitybooster.mixins;
 
 import appeng.container.implementations.WirelessContainer;
 import appeng.container.slot.RestrictedInputSlot;
@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import uk.co.hexeption.aeinfinitybooster.setup.ModItems;
+import dev.nadie.aeinfinitybooster.setup.ModItems;
 
 /**
  * MixinWirelessContainer
@@ -16,6 +16,7 @@ import uk.co.hexeption.aeinfinitybooster.setup.ModItems;
  * @author Hexeption admin@hexeption.co.uk
  * @since 22/12/2021 - 10:35 am
  */
+
 @Mixin(value = WirelessContainer.class)
 public abstract class MixinWirelessContainer {
 
