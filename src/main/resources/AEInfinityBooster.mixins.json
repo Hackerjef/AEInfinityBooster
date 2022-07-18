@@ -5,9 +5,9 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "AEInfinityBooster.refmap.json",
   "mixins": [
-    "MixinWirelessTerminalGuiObject",
     "MixinRestrictedInputSlot",
-    "MixinWirelessContainer"
+    "MixinWirelessContainer",
+    "MixinWirelessTerminalGuiObject"
   ],
   "client": [
   ],

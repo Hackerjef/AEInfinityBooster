@@ -3,6 +3,7 @@ package dev.nadie.aeinfinitybooster.mixins;
 import appeng.api.implementations.tiles.IWirelessAccessPoint;
 import appeng.helpers.WirelessTerminalGuiObject;
 import appeng.tile.networking.WirelessTileEntity;
+import dev.nadie.aeinfinitybooster.setup.ModItems;
 import net.minecraft.entity.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -10,7 +11,6 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import dev.nadie.aeinfinitybooster.setup.ModItems;
 
 /**
  * MixinWirelessTerminalMenuHost
